@@ -1,4 +1,3 @@
-"homepage": "https://JPJ997.github.io/Diocese-Website-DOC",
 {
   "name": "diocese-website",
   "version": "1.0.0",
@@ -6,8 +5,10 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
+  "homepage": "https://JPJ997.github.io/Diocese-Website-DOC",
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
